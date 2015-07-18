@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d;
+   while(scanf("%d",&a)==1) {
+   if(a==0)
+   break;
+   scanf("%d %d",&b,&c);
+   d=(b*c*a)/(c-a);
+   if(d>1)
+    printf("%d paginas\n",d);
+   else
+    printf("%d pagina\n",d);
+}
+}
